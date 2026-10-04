@@ -12,5 +12,5 @@ switch (a, b) {
         console.log("Mul is" + (a * b));
         break;
     case a / b:
-        console.log("Div is" )
+        console.log("Div is" + (a / b));
 }
