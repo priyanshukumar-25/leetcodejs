@@ -1,16 +1,19 @@
 let a = 4;
 let b = 5;
+let op = '+';
 
-switch (a, b) {
-    case a + b:
+switch (op) {
+    case '+':
         console.log("Sum is" + (a + b));
         break;
-    case a - b:
+    case '-':
         console.log("Sub is" + (a - b));
         break;
-    case a * b:
+    case '*':
         console.log("Mul is" + (a * b));
         break;
-    case a / b:
+    case '/':
         console.log("Div is" + (a / b));
+    default:
+        console.log("Invalid operator")
 }
